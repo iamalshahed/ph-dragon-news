@@ -4,8 +4,10 @@ import AllCategories from "../AllCategories/AllCategories";
 const LeftSide = () => {
   return (
     <div>
-      <div className="">
-        <h1>All Categories</h1>
+      <div className="mb-5">
+        <h1 className="text-neutral-700 text-xl font-semibold">
+          All Categories
+        </h1>
       </div>
 
       <Suspense
