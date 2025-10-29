@@ -2,6 +2,7 @@ import React from "react";
 import { assets } from "../../assets/assets";
 import { NavLink } from "react-router";
 import { format } from "date-fns";
+import LatestNews from "../LatestNews/LatestNews";
 
 const Header = () => {
   return (
@@ -36,6 +37,10 @@ const Header = () => {
             </p>
           </div>
         </div>
+      </div>
+
+      <div className="max-w-[1440px] w-full mx-auto px-4 mt-7">
+        <LatestNews />
       </div>
     </header>
   );
