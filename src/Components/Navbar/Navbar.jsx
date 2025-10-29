@@ -1,5 +1,5 @@
 import React from "react";
-import { NavLink } from "react-router";
+import { Link } from "react-router";
 import { assets } from "../../assets/assets";
 
 // nav menus array of obj
@@ -23,7 +23,7 @@ const NavItems = () => {
     <ul className="flex items-center gap-4">
       {navItems.map((item, index) => (
         <li key={index}>
-          <NavLink to={item.path}>{item.label}</NavLink>
+          <Link to={item.path}>{item.label}</Link>
         </li>
       ))}
     </ul>
@@ -49,7 +49,7 @@ const Navbar = () => {
         </div>
 
         <div className="">
-          <button className="cursor-pointer px-[25px] py-3 rounded-full text-sm font-normal bg-black text-white hover:bg-black/80">
+          <button className="cursor-pointer px-[25px] py-3 rounded-full text-sm font-normal bg-black text-white hover:bg-black/70">
             Login
           </button>
         </div>

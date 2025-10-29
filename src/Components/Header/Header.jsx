@@ -1,6 +1,6 @@
 import React from "react";
 import { assets } from "../../assets/assets";
-import { NavLink } from "react-router";
+import { Link } from "react-router";
 import { format } from "date-fns";
 import LatestNews from "../LatestNews/LatestNews";
 
@@ -10,13 +10,13 @@ const Header = () => {
       <div className="max-w-[1440px] w-full mx-auto px-4">
         {/* image */}
         <div className="w-full inline-flex justify-center">
-          <NavLink to="/">
+          <Link to="/">
             <img
               className="w-[250px] sm:w-[471px] h-auto"
               src={assets.logo}
               alt="Logo"
             />
-          </NavLink>
+          </Link>
         </div>
 
         {/* slogan and current date */}
