@@ -1,8 +1,6 @@
 import React from "react";
 
 const SocialLogin = ({ loginBtnInfo }) => {
-  console.log(loginBtnInfo);
-
   return (
     <div className="flex flex-col gap-4">
       {loginBtnInfo.map((btn, index) => (
