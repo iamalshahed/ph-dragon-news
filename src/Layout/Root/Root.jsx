@@ -11,7 +11,7 @@ const Root = () => {
       <Header />
       <main className="w-full max-w-[1440px] mx-auto px-4">
         <Navbar />
-        <div className="grid grid-cols-12 gap-6">
+        <div className="grid grid-cols-12 gap-6 pb-8">
           <aside className="col-span-3">
             <LeftSide />
           </aside>
